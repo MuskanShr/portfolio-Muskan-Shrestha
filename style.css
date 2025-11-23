@@ -1,3 +1,111 @@
+*{
+margin-top: 20px;
+}
 #section{
-	background-color: pink;
+	text-align: center;
+}
+.navs{
+	display: inline-block;
+	width: 100px;
+	font-size: 30px;
+	color: black;
+}
+#intro{
+	 display: flex;
+    align-items: center; 
+    justify-content: center;
+    gap: 40px;
+    background-color: #7a1b4a;
+    padding: 20px 50px;
+    color: white;
+}
+
+#about{
+	text-align: center;
+	font-size: 20px;
+	max-width: 500px;
+	
+}
+
+
+#icon{
+	display: flex;
+	gap: 20px;
+	justify-content: center;
+
+
+}
+
+.skill{
+    border: 2px solid black;
+    width: 200px;
+    padding: 50px;
+    text-align: center;
+    border-radius: 12px;
+    box-shadow: 0 0 10px;
+    background-color: lightyellow;
+
+}
+#pro{
+	 display: flex;
+	 gap: 50px;
+	 justify-content: center;
+}
+
+#pro div {
+    border: 2px solid deeppink;
+    width: 200px;
+    padding: 30px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 0 10px;
+    
+}
+
+#img{
+	   width: 50px;
+    height: 35px;
+     border-radius: 10px;
+     margin-left: 250px;
+ }
+
+
+#form{
+	text-align: center;
+	width: 500px;
+  border: 2px solid black ;
+  padding: 25px;
+  margin: 30px auto;
+  font-size: 21px;
+
+
+}
+input{
+	font: 1em sans-serif;
+  width: 450px;
+  border: 1px solid #999;
+  padding: 0.5em;
+}
+
+#button{
+	border-radius: 5px;
+	padding: 5px;
+	margin-top: 15px;
+	background-color: lightcyan ;
+	font-size: 20px;
+
+
+}
+#foot{
+	font-size: 15px;
+	color: gray;
+	text-align: center;
+}
+
+h2{
+	text-align: center;
+	
+	margin-top: 30px;
+	
+
 }
