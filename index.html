@@ -4,30 +4,48 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="style.css">
-	<title>My Portfolio</title>
+
+	<title></title>
 </head>
 <body>
 	<section id="section">
-	<header>
-		<nav id="nav">
-			<a href="#" class="navs">About</a>
-			<a href="#" class="navs">Skills</a>
-			<a href="#" class="navs">Project</a>
-			<a href="#" class="navs">Contact</a>
+	<header id="hero">
+		<video autoplay loop muted id="video-background">
+<source src="videos/galaxy1.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video> 
 
-		</nav>
+<nav id="nav">
+<span class="logo">My Portfolio</span>
+<ul class="nav-links">
+<li><a href="#about">About</a></li>
+<li><a href="#skills">Skills</a></li>
+<li><a href="#projects">Projects</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+<button class="menu-toggle" aria-expanded="false" aria-label="Toggle navigation"
+id="menu-button">☰</button>
+
+</nav>
+<div id="content">
+<img id="img1" src="https://static.vecteezy.com/system/resources/previews/023/825/684/large_2x/smiling-positive-attractive-asian-young-woman-girl-in-beige-suit-formal-dress-portrait-elegant-of-pretty-with-long-black-hair-feeling-happy-looking-at-camera-standing-isolated-on-white-background-photo.jpg" height=400px width=350px >
+<div id="hey">
+	 <h1 >HEY!! I am Muskan <br> Shrestha</h1>
+	 <h2>a Web Developer</h2>
+	 
+</div>
+
+</div>
 	</header>
 </section>
 
+
 <section id="intro">
-	<!-- <div id= "img"> -->
-	<img src="https://static.vecteezy.com/system/resources/previews/023/825/684/large_2x/smiling-positive-attractive-asian-young-woman-girl-in-beige-suit-formal-dress-portrait-elegant-of-pretty-with-long-black-hair-feeling-happy-looking-at-camera-standing-isolated-on-white-background-photo.jpg" height=400px width=350px >
-<!-- </div> -->
+
 <div id="about">
-	
-     <h3>HEY!! 
-     I am Muskan</h3>
+
      	<h3>About Me</h3>
+
 	<p id="para">
 		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -36,7 +54,9 @@
 		
 	</p>
 <h3>Contact me- muskan@gmail.com</h3>
-</div>     	</section>
+</div> 
+	<img src="https://img.freepik.com/premium-photo/business-woman-with-victory-sign-happy-positive-funny-businesswoman-show-victory-vsign-gesture-isolated-white-background-studio-portrait-portrait-attractive-funny-crazy-student_545934-40497.jpg" height=400px width=350px >    	
+</section>
 
 
 
@@ -70,6 +90,8 @@
 			<h3>Lorem ipsum dolor sit amet</h3></div>
 		<div><img src="https://i.pinimg.com/1200x/d1/29/21/d12921829a192983f7d6bdca58f4e2d0.jpg" height=150px width=150px>
 			<h3>Lorem ipsum dolor sit amet</h3></div>
+				<div><img src="https://i.pinimg.com/1200x/d1/29/21/d12921829a192983f7d6bdca58f4e2d0.jpg" height=150px width=150px>
+			<h3>Lorem ipsum dolor sit amet</h3></div>
 		
 	</div>
 </section>
@@ -78,19 +100,22 @@
 	<h2>Contact Me</h2>
 	<form id="form">
 			<label>Name:</label>
-			<input type="text" placeholder="Enter your name"><br>
+			<input type="text" id="Name" placeholder="Enter your name"><br>
 			<label>Email:</label>
-			<input type="text" placeholder="Enter your email"><br>
+			<input type="text" id="Email" placeholder="Enter your email"><br>
 			<label>Message:</label>
-			<input type="text" placeholder="Enter your message"><br>
-			<button id="button">Submit</button>
+			<input type="text" id="Message" placeholder="Enter your message"><br>
+			<button type="submit" id="button">Submit</button>
 		</form>
+		<div id="form-message"></div>
 	</section>
-		
 
-</body>
 <footer id="foot">
 	<p>@All rights reserved</p>
 </footer>
+
+		
+<script src="Javascript/script.js"></script>
+</body>
 
 </html>
