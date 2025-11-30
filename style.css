@@ -36,9 +36,10 @@ margin-top: 10px;
   top: 0;
   left: 0;
   width: 100%;
+  margin-top: 20px;
 
-  padding: 20px;
-  z-index: 999; /* make sure it's on top of video and all content */
+ /* padding: 10px;
+  z-index: 999;*/ /* make sure it's on top of video and all content */
 
 }
 
